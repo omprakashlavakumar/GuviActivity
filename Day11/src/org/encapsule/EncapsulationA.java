@@ -1,7 +1,7 @@
 package org.encapsule;
 
 public class EncapsulationA {
-	//private Variable
+	   //private Variable
 		private int age;
 		private String name;
 		public int getAge() {
@@ -16,5 +16,6 @@ public class EncapsulationA {
 		public void setName(String name) {
 			this.name = name;
 		}
+		
 		
 }
