@@ -15,7 +15,7 @@ public class ExcelA {
 	public static void main(String[] args) throws Exception {
 		
 	    // 1. Create File Path of the Excel
-		File f = new File ("C:\\Users\\Om Prakash\\eclipse-workspace\\Day16_\\Excel\\TestData.xlsx");
+		File f = new File ("C:\\Users\\Om Prakash\\git\\repository2\\Day16_\\Excel\\TestData.xlsx");
 		
 		// 2. Getting into the File
 		FileInputStream fin = new FileInputStream (f);
@@ -39,7 +39,7 @@ public class ExcelA {
 		int rows = s.getPhysicalNumberOfRows();
 		System.out.println("No. of Rows - "+rows);
 		
-		// To get Number of Cells in the Excel
+		// To get Number of Cells in the Row of that excel
 		int cells = r.getPhysicalNumberOfCells();
 		System.out.println("No. of Cells - "+cells);
 		
