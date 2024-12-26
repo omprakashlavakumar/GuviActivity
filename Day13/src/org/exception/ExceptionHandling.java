@@ -2,7 +2,7 @@ package org.exception;
 
 public class ExceptionHandling {
 	
-	public static void main(String[] args) throws InterruptedException   {
+	public static void main(String[] args) throws InterruptedException  {
 		int a = 10;
 		//Unchecked Exception
 		//1. Arithmetic Exception
