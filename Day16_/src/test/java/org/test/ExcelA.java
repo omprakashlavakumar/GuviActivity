@@ -21,7 +21,7 @@ public class ExcelA {
 		FileInputStream fin = new FileInputStream (f);
 		
 		// 3. Getting into the Workbook
-		Workbook w = new XSSFWorkbook(fin);
+		Workbook w = new XSSFWorkbook(fin); // xlsx Excel sheet
 		
 		// 4. Getting into the sheet
 		Sheet s = w.getSheet("Sheet1");
