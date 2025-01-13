@@ -3,19 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.test.Annotations">
+      <class name="org.test.ParameterExample">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
-          <include name="afterSuite"/>
-          <include name="afterTest"/>
           <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="Test2"/>
+          <include name="beforeClass"/>
+          <include name="Test"/>
         </methods>
-      </class> <!-- org.test.Annotations -->
+      </class> <!-- org.test.ParameterExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
